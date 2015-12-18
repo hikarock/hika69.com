@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 18px;
+}
+nav {
+  max-width: 720px;
+  margin: 100px auto;
+}
+a:link,
+a:visited {
+  font-weight: normal;
+  color: #111;
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+ul li {
+  flex-basis: 240px;
+  list-style-type: none;
+  text-align: center;
+}
+ul li a {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  border-radius: 50%;
+  border: solid #000 12px;
+  background-color: #F3D24B;
+}
+ul li.blog a {
+  background-color: #fff;
+}
+ul li.booklog a {
+  background-color: #AE8B5C;
+}
+ul li.twitter a {
+  background-color: #6BAEE7;
+}
+ul li.github a {
+  background-color: #F5F5F5;
+}
+ul li.filmarks a {
+  background-color: #FDEB51;
+}
+ul li.remp a {
+  background-color: #D3413B;
+}
+ul li.stobo a {
+  background-color: #E38A3D;
+}
+ul li.casto a {
+  background-color: #77C995;
+}
+ul li.triph a {
+  background-color: #7CBFCB;
+}
+ul li.mo a {
+  background-color: #EEC74F;
+}
+ul li.simple-honyaku a {
+  background-color: #CF5B65;
+}
+ul li.mail a {
+  background-color: #9985D9;
+}
+ul li a:hover {
+  background-color: #000;
+  color: #fff;
+}
