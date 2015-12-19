@@ -6,7 +6,7 @@ html, body {
   font-family: 'Noto Sans Japanese', sans-serif;
 }
 nav {
-  width: 660px;
+  width: 780px;
   margin: 100px auto 100px auto;
 }
 a:link,
@@ -24,12 +24,12 @@ ul {
   justify-content: flex-start;
 }
 ul li {
-  flex-basis: 220px;
+  flex-basis: 260px;
   list-style-type: none;
   text-align: center;
 }
 ul li a {
-  margin: 10px;
+  margin: 0 30px 20px 30px;
 }
 .booklog .icon i {
   background-color: #AE8B5C;
