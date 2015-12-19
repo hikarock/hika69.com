@@ -80,10 +80,6 @@ ul li a {
   border-radius: 50%;
   border: solid #000 12px;
 }
-.icon i.hover-effect {
-  background-color: #000;
-  color: #fff;
-}
 .label {
   display: inline-block;
   margin-top: 10px;
