@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box;
 }
-html {
+html, body {
   font-size: 12px;
   font-family: 'Noto Sans Japanese', sans-serif;
 }
 nav {
-  max-width: 720px;
-  margin: 100px auto;
+  width: 660px;
+  margin: 100px auto 100px auto;
 }
 a:link,
 a:visited {
@@ -16,21 +16,62 @@ a:visited {
   display: inline-block;
 }
 ul {
+  margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
+  align-content: center;
+  justify-content: flex-start;
 }
 ul li {
-  flex-basis: 240px;
+  flex-basis: 220px;
   list-style-type: none;
   text-align: center;
 }
 ul li a {
   margin: 10px;
 }
-ul li a .icon i {
+.booklog .icon i {
+  background-color: #AE8B5C;
+}
+.twitter .icon i {
+  background-color: #6BAEE7;
+}
+.github .icon i {
+  background-color: #F5F5F5;
+}
+.filmarks .icon i {
+  background-color: #FDEB51;
+}
+.facebook .icon i {
+  background-color: #466296;
+}
+.remp .icon i {
+  background-color: #D3413B;
+}
+.stobo .icon i {
+  background-color: #E38A3D;
+}
+.casto .icon i {
+  background-color: #77C995;
+}
+.triph .icon i {
+  background-color: #7CBFCB;
+}
+.mo .icon i {
+  background-color: #EEC74F;
+}
+.simple-honyaku .icon i {
+  background-color: #CF5B65;
+}
+.weekend .icon i {
+  background-color: #F9D14C;
+}
+.mail .icon i {
+  background-color: #9985D9;
+}
+.icon i {
+  margin-top: 10px;
   width: 200px;
   height: 200px;
   line-height: 188px;
@@ -38,54 +79,12 @@ ul li a .icon i {
   border-radius: 50%;
   border: solid #000 12px;
 }
-ul li a .label {
+.icon i:hover {
+  background-color: #000;
+  color: #fff;
+}
+.label {
   display: inline-block;
   margin-top: 10px;
   font-size: 1.2rem;
-}
-ul li.blog .icon i {
-  background-color: #fff;
-}
-ul li.booklog .icon i {
-  background-color: #AE8B5C;
-}
-ul li.twitter .icon i {
-  background-color: #6BAEE7;
-}
-ul li.github .icon i {
-  background-color: #F5F5F5;
-}
-ul li.filmarks .icon i {
-  background-color: #FDEB51;
-}
-ul li.facebook .icon i {
-  background-color: #466296;
-}
-ul li.remp .icon i {
-  background-color: #D3413B;
-}
-ul li.stobo .icon i {
-  background-color: #E38A3D;
-}
-ul li.casto .icon i {
-  background-color: #77C995;
-}
-ul li.triph .icon i {
-  background-color: #7CBFCB;
-}
-ul li.mo .icon i {
-  background-color: #EEC74F;
-}
-ul li.simple-honyaku .icon i {
-  background-color: #CF5B65;
-}
-ul li.weekend .icon i {
-  background-color: #F9D14C;
-}
-ul li.mail .icon i {
-  background-color: #9985D9;
-}
-ul li a .icon i:hover {
-  background-color: #000;
-  color: #fff;
 }
