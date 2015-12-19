@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 html, body {
   font-family: 'Noto Sans Japanese', sans-serif;
@@ -78,7 +80,7 @@ ul li a {
   border-radius: 50%;
   border: solid #000 12px;
 }
-.icon i:hover {
+.icon i.hover-effect {
   background-color: #000;
   color: #fff;
 }
