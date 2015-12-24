@@ -75,6 +75,8 @@ ul li a {
   background-color: #9985D9;
 }
 .icon i {
+  font-size: 3em;
+  display: inline-block;
   margin-top: 10px;
   width: 200px;
   height: 200px;
