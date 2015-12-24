@@ -32,8 +32,11 @@ ul li {
 ul li a {
   margin: 0 20px 20px 20px;
 }
+.blog .icon i {
+  background-color: #ECF2F5;
+}
 .booklog .icon i {
-  background-color: #AE8B5C;
+  background-color: #92AEBD;
 }
 .twitter .icon i {
   background-color: #6BAEE7;
@@ -75,7 +78,7 @@ ul li a {
   margin-top: 10px;
   width: 200px;
   height: 200px;
-  line-height: 188px;
+  line-height: 180px;
   text-align: center;
   border-radius: 50%;
   border: solid #000 12px;
