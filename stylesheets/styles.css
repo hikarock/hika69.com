@@ -48,6 +48,9 @@ ul li a {
 .filmarks .icon i {
   background-color: #EBAD15;
 }
+.sumally .icon i {
+  background-color: #EE4E22;
+}
 .facebook .icon i {
   background-color: #466296;
 }
@@ -68,9 +71,6 @@ ul li a {
 }
 .simple-honyaku .icon i {
   background-color: #CF5B65;
-}
-.weekend .icon i {
-  background-color: #F9D14C;
 }
 .mail .icon i {
   background-color: #9985D9;
