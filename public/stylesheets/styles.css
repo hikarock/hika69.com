@@ -34,10 +34,10 @@ ul li a {
   margin: 0 20px 20px 20px;
 }
 .blog .icon i {
-  background-color: #09C486;
+  background-color: #FF2259;
 }
 .booklog .icon i {
-  background-color: #92AEBD;
+  background-color: #0C7B71;
 }
 .twitter .icon i {
   background-color: #6BAEE7;
@@ -46,7 +46,10 @@ ul li a {
   background-color: #6F6D6D;
 }
 .filmarks .icon i {
-  background-color: #EBAD15;
+  background-color: #444444;
+}
+.tabelog .icon i {
+  background-color: #FFA600;
 }
 .sumally .icon i {
   background-color: #EE4E22;
@@ -61,13 +64,16 @@ ul li a {
   background-color: #E38A3D;
 }
 .casto .icon i {
-  background-color: #77C995;
+  background-color: #4FD093;
 }
 .triph .icon i {
   background-color: #7CBFCB;
 }
 .mo .icon i {
   background-color: #EEC74F;
+}
+.chab .icon i {
+  background-color: #007EC6;
 }
 .simple-honyaku .icon i {
   background-color: #CF5B65;
