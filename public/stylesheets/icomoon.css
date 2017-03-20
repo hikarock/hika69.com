@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:    url('../fonts/icomoon.eot?8gwgxi');
-  src:    url('../fonts/icomoon.eot?8gwgxi#iefix') format('embedded-opentype'),
-  url('../fonts/icomoon.ttf?8gwgxi') format('truetype'),
-  url('../fonts/icomoon.woff?8gwgxi') format('woff'),
-  url('../fonts/icomoon.svg?8gwgxi#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?ygstzm');
+  src:  url('../fonts/icomoon.eot?ygstzm#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ygstzm') format('truetype'),
+    url('../fonts/icomoon.woff?ygstzm') format('woff'),
+    url('../fonts/icomoon.svg?ygstzm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,38 +24,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-envelope-o:before {
-  content: "\f003";
-}
-.icon-film:before {
-  content: "\f008";
-}
-.icon-pencil:before {
-  content: "\f040";
-}
-.icon-gift:before {
-  content: "\f06b";
-}
-.icon-twitter:before {
-  content: "\f099";
-}
-.icon-facebook:before {
-  content: "\f09a";
-}
-.icon-facebook-f:before {
-  content: "\f09a";
-}
-.icon-github:before {
-  content: "\f09b";
-}
-.icon-table:before {
-  content: "\f0ce";
-}
-.icon-cutlery:before {
-  content: "\f0f5";
-}
-.icon-language:before {
-  content: "\f1ab";
+.icon-music:before {
+  content: "\f001";
 }
 .icon-booklog:before {
   content: "\e900";
@@ -74,5 +44,35 @@
 }
 .icon-triph:before {
   content: "\e905";
+}
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-film:before {
+  content: "\f008";
+}
+.icon-pencil:before {
+  content: "\f040";
+}
+.icon-gift:before {
+  content: "\f06b";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-table:before {
+  content: "\f0ce";
+}
+.icon-cutlery:before {
+  content: "\f0f5";
+}
+.icon-language:before {
+  content: "\f1ab";
 }
 

@@ -37,7 +37,7 @@ ul li a {
   background-color: #FF2259;
 }
 .booklog .icon i {
-  background-color: #0C7B71;
+  background-color: #69A1B2;
 }
 .twitter .icon i {
   background-color: #6BAEE7;
@@ -77,6 +77,9 @@ ul li a {
 }
 .simple-honyaku .icon i {
   background-color: #CF5B65;
+}
+.x-play .icon i {
+  background-color: #3770FF;
 }
 .mail .icon i {
   background-color: #9985D9;
